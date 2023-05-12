@@ -1,0 +1,160 @@
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pics/p1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 28px;
+}
+
+span.logoa{
+    color:blueviolet;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    color: yellowgreen;
+    transition: .3s;
+}
+
+button{
+    border: none;
+    background:yellowgreen ;
+    padding: 12px 30px;
+    border-radius: 30px ;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.statistics{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+
+.statistics{
+    position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%) ;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    bottom: 800px;
+}
+.container{
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid blueviolet;
+
+}
+
+i{
+    color: aqua;
+    font-size: 2.5em;
+    text-align: center;
+}
+span.num{
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+span.text{
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+
+
+}
+.plus{
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+
+
+}
+@media screen and ( max-width: 1024px) {
+.statistics{
+        width:85vw;
+    }
+    
+    .container{
+        height:26vmin;
+        width: 26vmin;
+        font-size:12px;
+    }
+}
+@media screen and (max-width: 796px) {
+       .statistics{
+            width: 90vw;
+            flex-wrap: wrap;
+            gap: 30px;
+       }
+       .container{
+        width: calc(50%  -40%);
+        height: 30vmin;
+        font-size: 14px;
+       }
+    
+}
+@media screen and (max-width) {
+    .statistics{
+        width: 15px;
+    }
+    .container{
+        width: 100%;
+        height: 25vmin;
+        font-size: 8px;
+    }
+    
+}
