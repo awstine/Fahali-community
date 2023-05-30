@@ -1,9 +1,10 @@
 .header{
-    height: 100vh;
+    height: 20vh;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pics/p1.jpg);
     background-size: cover;
     background-position: center;
+    mask-border-outset: 30px;
 
 }
 
@@ -19,6 +20,8 @@ nav{
 .logo{
     color: #ffffff;
     font-size: 28px;
+    
+    
 }
 
 span.logoa{
@@ -56,6 +59,11 @@ button:hover{
     transform: scale(1.3);
     cursor: pointer;
 }
+ 
+nav ul .logob{
+    justify-content: end;
+    margin-right: auto;
+}
 
 .statistics{
     padding: 0;
@@ -67,14 +75,15 @@ button:hover{
 
 .statistics{
     position: absolute;
-    width: 80vw;
+    width: 60vw;
     transform: translate(-50%, -50%) ;
-    top: 50%;
+    top: 100%;
     left: 50%;
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: 5px;
     bottom: 800px;
+    border: #21242b;
 }
 .container{
     width: 28vmin;
@@ -158,3 +167,98 @@ span.text{
     }
     
 }
+
+.middle{
+    background-color: blueviolet;
+    align-items: left;
+    margin-top: auto;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+
+img{
+    margin-left:75%;
+    height: 300px;
+    width: 400px;
+}
+
+form{
+    background: linear-gradient(90deg , (255,0,0)(0,255,0)(0,0,255) );
+  
+}
+
+form {
+    color: blueviolet;
+  }
+  
+  /*label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: darkviolet;
+  }*/
+  form {
+    color: blueviolet;
+  }
+  
+  .form-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .form-col {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: darkviolet;
+  }
+  
+  
