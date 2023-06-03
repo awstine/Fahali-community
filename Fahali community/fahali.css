@@ -8,6 +8,10 @@
 
 }
 
+body{
+  background-color: gray;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -184,13 +188,14 @@ img{
     width: 400px;
 }
 
-form{
-    background: linear-gradient(90deg , (255,0,0)(0,255,0)(0,0,255) );
-  
-}
 
 form {
-    color: blueviolet;
+    background-color: blueviolet;
+    border-radius: 3px;
+    padding: 3px;
+    text-align: justify;
+    margin: 20px;
+    display: block;
   }
   
   /*label {
@@ -219,7 +224,7 @@ form {
   
   input[type="submit"]:hover {
     background-color: darkviolet;
-  }*/
+  }
   form {
     color: blueviolet;
   }
@@ -247,7 +252,7 @@ form {
   
   input[type="radio"] {
     margin-right: 5px;
-  }
+  }*/
   
   input[type="submit"] {
     background-color: blueviolet;
