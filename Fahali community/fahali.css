@@ -5,22 +5,23 @@
   box-sizing: border-box;
 }*/
 
-.header{
- /* height: 20vh;*/
+/*.header{
+ /* height: 20vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pics/p1.jpg);
   background-size: cover;
   background-position: center;
   mask-border-outset: 30px;
-  /*position: fixed;*/
+  /*position: fixed;
   z-index: 9999;
   top: 0;
   left: 0;
-
-}
+  
+}*/
 
 body{
 background: linear-gradient(to bottom right,#e0e0e0,#21242b);
+font-size: 20px;
 
 /*background-image: url(pics/p1.jpg);
 background-attachment: fixed;
@@ -386,4 +387,11 @@ input[type="submit"]:hover {
 
 .mission1{
   padding: 30px;
+  color: blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mission1 h2{
+  color: yellowgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
